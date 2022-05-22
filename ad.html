@@ -40,81 +40,66 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                 </li>
-
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                        <li class="nav-item active">
-                            
-                            <a class="nav-link" href="newentreprise.html">Entreprise</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Réalisations
-
-
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="experiencep.html">Réalisation professionelles</a>
-                                <a class="dropdown-item" href="experiencee.html">Réalisation Ecole</a>
+                
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                            <li class="nav-item active">
                                 
-                            </div>
-                            </a>
+                                <a class="nav-link" href="newentreprise.html">Entreprise</a>
+                            </li>
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="veille.html">Veille informationnelle <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Réalisations
+
+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="experiencep.html">Réalisation professionelles</a>
+                        <a class="dropdown-item" href="experiencee.html">Réalisation en formation </a>
+                        
+                    </div>
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="veille.html">Veille informationnelle <span class="sr-only">(current)</span></a> 
+                </li>
+            </ul>
+        </div>
     </nav>
 
 
     <div class="container">
         <img src="photo/AD.png" class="mt-3 m-auto" style="display: block;">
-        <h2 class="fw-bold text-center">Active Directory</h2>
+        
         <div class="callout callout-primary">
             <h4><i class="fa-solid fa-comment"></i> Contexte</h4>
-            <p>
-            <ul>
-                
-            </ul>
-
-            <li> Administration centralisée et simplifiée : la gestion des objets, notamment des comptes
-                utilisateurs et ordinateurs est simplifiée, car tout est centralisé dans l’annuaire Active Directory. De
-                plus, on peut s’appuyer sur cet annuaire pour de nombreuses tâches annexes comme le déploiement
-                de stratégies de groupe sur ces objets .</li>
-           
-
-            <li>- Unifier l’authentification : un utilisateur authentifié sur une machine, elle-même authentifiée,
-                pourra accéder aux ressources stockées sur d’autres serveurs ou ordinateurs enregistrés dans
-                l’annuaire (à condition d’avoir les autorisations nécessaires). Ainsi, une authentification permettra
-                d’accéder à tout un système d’information par la suite, surtout que de nombreuses applications sont
-                capables de s’appuyer sur l’Active Directory pour l’authentification. Un seul compte peut permettre
-                un accès à tout le système d’information, ce qui est fortement intéressant pour les collaborateurs.
-                - Identifier les objets sur le réseau : chaque objet enregistré dans l’annuaire est unique, ce qui
-                permet d’identifier facilement un objet sur le réseau et de le retrouver ensuite dans l’annuaire.</li>    
-            
-            </li>
-            <li>- Référencer les utilisateurs et les ordinateurs : l’annuaire s’apparente à une énorme base de
-                données qui référence les utilisateurs, les groupes et les ordinateurs d’une entreprise. On s’appuie
-                sur cette base de données pour réaliser de nombreuses opérations : authentification, identification,
-                stratégie de groupe, déploiement de logiciels, etc.
-                D’autres services comme un serveur DHCP et DNS doivent être installés.
-                DHCP : Le DHCP (Dynamic Host Configuration Protocol) : Un serveur DHCP délivre des adresses IP de
-                façon automatique aux ordinateurs se connectant au réseau. En plus d'une adresse IP le serveur
-                DHCP vous informe de la configuration réseau tel que la passerelle par défaut et le masque de sousréseau.
-                DNS : Le Domain Name System (ou DNS, système de noms de domaine) est un service permettant de
-                traduire un nom de domaine en informations de plusieurs types qui y sont associées, notamment en
-                adresses IP de la machine portant ce nom.</li>
-        </p>
-            </ul>
+            <p>La société ASSURMER, dont le siège social se trouve à Marseille, est spécialisée dans le secteur des assurances. Elle a été créée en 2000 et compte aujourd’hui 15 agences situées sur l’ensemble de la Côte Méditerranéenne. Elle compte 20 collaborateurs au siège, où se trouvent la DSI et l’équipe IT, et 90 collaborateurs répartis sur les 15 agences. Elle propose des services d'assurance pour les professionnels et particuliers (B2B & B2C). Dans le cadre des contrats en B2C elle gère des données personnelles.</p>
         </div>
-
-
+        <hr>
+        <div class="callout callout-info">
+            <h4><i class="fa-solid fa-recycle"></i> Création d'un utilisateur</h4>
+            <p>Un nouveau arrivant souhaite pouvoir se connecter à notre réseau WIFI, nous devons créer l'utilisateur dans l'Active Directory .</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center ms-auto me-auto">
+                <img src="photo/adetapeune.png" class="w-75">
+            </div>
+        </div>
+        <div class="callout callout-info">
+            <h4>Première étapes </h4>
+            <p>Dans cet exemple, nous devons alors appuyer sur nouveau, un onglet apparais, puis cliquer sur utilisateur</p>
+        </div>
+        <img src="photo/adetapedeux.png" class="w-60 rounded">
+        <div class="callout callout-info">
+            <h4>Troisième étapes </h4>
+            <p>Dans cet exemple, nous devons alors renseigner le prénom, le nom, puis les initiales afin de retrouver plus rapidement l'utilisateur</p>
+        </div>
+        <img src="photo/adetapetrois.png" class="w-60 rounded">
         <h3 class="mt-3 text-center"><i class="fa-solid fa-paperclip"></i> Document associé</h3>
         <div class="row mb-3 text-center">
             <div class="col-md-12">
